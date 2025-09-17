@@ -1,0 +1,281 @@
+body{
+margin:0;
+padding:0;
+  background: rgb(248, 246, 246);
+ font-family: 'Montserrat', sans-serif;
+}
+/* cabeçalho comida.html*/
+h1 {
+    background: #4CAF50;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+        color: white ;
+        
+}
+/* Conheça receitas inovadoras e saudáveis */
+header p.an {
+    color:rgb(117, 180, 34) 
+    
+}
+/* todos os subtitilos */
+h2 {
+   margin: 20px;
+    color:#4CAF50;
+font-size: 1.6rem;
+font-family: 'Montserrat', sans-serif;
+padding: 2;
+}  
+
+/*Paragrafo main*/
+p{
+font-family: 'Montserrat', sans-serif;
+color:rgb(63, 62, 62);
+margin: 10px;
+ font-size: 16px;
+}
+/* section objetivo h2*/
+.objetivos {
+    background: #f9f9f9;      
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+/*liks main */
+a {
+    color: #5a964e; 
+    text-decoration: none;
+
+}
+
+/* Estiliza a borda do fieldset */
+fieldset {
+    border-color: white;
+    border-radius: 10px;
+    width: 650px;
+    background-color: transparent;
+    background-color: white;
+}
+
+/* informações para contato */
+footer{
+      margin: 0px;
+      background-color: #ccc;
+      box-sizing: none;
+      width: 100%;
+    padding: 10px;
+    
+}
+
+/* definindo o tamanho das imagens  */
+img {
+    margin: 20px;
+     width: 300px;  
+  height: 200px;
+
+}
+
+/* estilização das imagens para que fiquem alinhadas */
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+}
+
+
+/* estilização das imagens para que fiquem alinhadas */
+
+.card p {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+
+/* ----------------------index.html-----------------------------------------*/
+
+/*TODA REFEIÇÃO IMPORTA*/
+   header h1.texti{
+    color:#345c36;
+padding: 50px;
+background: #cbe6cb;
+ font-size: 25px;
+   font-weight: 300;
+    }
+/*DEFINA SEUS OBJETIVOS*/
+     header h2.objetivo{
+    color:#0e3f1d;
+border-color: rgb(148, 212, 146);
+text-align: center;
+font-size: 37px;
+    text-align: center;
+    color:#345c36;
+     }
+
+     /*Subtitulo nome, senha, data, feed,tabela de topicos, cadastro... */
+
+  section h2.nome{
+     font-size: 25px;
+    color:#345c36;
+  
+}
+input[type="text"],
+select .nome {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  width: 600px;
+  background: transparent;
+}
+/*alterando a borda da caixa de texto*/
+input[type="text"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+}
+
+
+ section h2.senha{
+     font-size: 25px;
+    color:#345c36;
+  }
+  input[type="password"],
+select .senha {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  width: 200px;
+  background: transparent;
+}
+/*alterando a borda da caixa de texto*/
+input[type="password"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  }
+
+/* Estilo dos títulos */
+input[type="date"]
+section h2.feed, 
+section h2.tipo, 
+section h2.tbTop, 
+section summary.nome,
+section h2.cada, 
+section h2.imagina, 
+section h2.alimentacao,
+section h2.date{
+  font-size: 25px;
+  color: #345c36;
+  display: block;   /* estava escrito errado: "displSay" */
+  margin-bottom: 10px;
+   transition: all 0.17s ease;
+}
+
+/* Estilo geral das caixinhas (select) */
+select {
+  width: 250px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  margin: 20px ;
+}
+
+/* Quando passa o mouse */
+select:hover {
+  border-color:#ccc;
+  background-color: rgb(183, 214, 183);
+  
+}
+
+/* Quando está selecionado (focus) */
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+input[type="date"]
+
+
+/* borda das informações de contato*/
+fieldset.cad{
+    input[type="radio"],
+input[type="checkbox"],
+input [type="email"], textarea {
+  width: 20px;     /* tamanho */
+  height: 20px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+<textarea id="comentarios" name="comentarios" rows="4" cols="50"
+ placeholder="digite seus comentários"></textarea>
+select{
+    color:#1a4411; 
+}
+}
+
+/*
+select {
+  border: 1px solid rgb(63, 62, 62);
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+
+/* nome, e-mail, frequência (fieldset)*/
+/*
+label{
+    color:rgb(63, 62, 62);
+    font-weight: bold;
+}
+    /* informações para contato */
+    /*
+legend{
+    color:rgb(63, 62, 62);
+}
+/* Opções de frequencia */
+/*
+select{
+    color:#1a4411; 

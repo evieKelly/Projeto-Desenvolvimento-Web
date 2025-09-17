@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Defina suas metas</title>
+    <meta name="description" content="Página para definir e acompanhar suas metas de saúde.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="texti" >TODA REFEIÇÃO IMPORTA🌿</h1>
+        <p><a href="comida.html">Voltar para a página inicial</a></p>
+        <h2 class="objetivo">defina seus objetivos</h2>
+    </header>
+    <main>
+        <section>
+             <div class="coluna-principal">
+            </div>
+            <p class="form">Comer saudável não precisa ser exaustivo e sem gosto!</p>
+            <p>Certo?</p>
+            <form>
+                <input type="radio" value="Sim" id="p1a" name="pergunta1">
+                <label for="p1a">Sim!!!</label><br>
+                <input type="radio" value="Não" id="p1b" name="pergunta1">
+                <label for="p1b">Não</label>
+            </form>
+        </section>
+
+        <section>
+            <h2 class="nome">Qual seu nome?</h2>
+            <form class="nome">
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+        
+        <section>
+            <h2 class="data">Qual sua data de nascimento?</h2>
+            <form class="data">
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+
+        <section>
+            <h2 class="feed">Por que precisa de ajuda do Comida que Cuida?</h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Diabetes">
+                <label for="p5a">Diabetes</label>
+                <input type="checkbox" id="p5b" name="pergunta5" value="Hipertensão">
+                <label for="p5b">Hipertensão</label>
+                <input type="checkbox" id="p5c" name="pergunta5" value="CuidarApenas">
+                <label for="p5c">Apenas Cuidar da Saúde</label>
+            </form>
+        </section>
+           <section>
+            <h2 class="alimentacao">O que te motivou a começar sua jornada de alimentação saudável hoje??</h2>
+            <form class="alimentacao">
+                <select name="pergunta7" id="p7">
+                      <option value="op1">Cuidar da minha saúde</option>
+                    <option value="op2">Cuidar da minha saúde</option>
+                    <option value="op3">Melhorar meu bem-estar</option>
+                    <option value="op4">Prevenção</option>
+                    <option value="op4">estou aqui para descobrir</option>
+                </select>
+            </form>
+        </section>
+            <section>
+            <h2 class="imagina">Como você se imagina sentindo em um mês ao adotar novos hábitos alimentares???</h2>
+            <form class="imagina">
+                <select name="pergunta7" id="p7">
+                    <option value="op1.2">Selecione uma opção</option>
+                    <option value="op2.2">Mais energético(a) e com mais disposição</option>
+                    <option value="op3.2">Mais leve</option>
+                    <option value="op4.2">Controle de peso</option>
+                    <option value="op5.2">Ainda em adaptação</option>
+                </select>
+            </form>
+        </section>
+        
+        <section>
+            <h2 class="tipo">Qual sabor você deseja no momento?</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                       <option value="op1.3">Selecione uma opção</option>
+                    <option value="op2.3">Doce</option>
+                    <option value="op3.3">Salgado</option>
+                     <option value="op4.3">Refrescante</option>
+                      <option value="op5.3">Refeição completa</option>
+                    <option value="op6.3">Não sei</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <details>
+                <summary class="receita">Clique aqui para ver as receitas</summary>
+                <h3>Receitas em lista</h3>
+                <ul>
+                    <li>panqueca</li>
+                    <li>churrasco</li>
+                    <li>chocolate</li>
+                </ul>
+                <h3>Receitas numeradas</h3>
+                <ol>
+                    <li>panqueca</li>
+                    <li>churrasco</li>
+                    <li>chocolate</li>
+                </ol>
+            </details>
+        </section>
+        
+        <section>
+            <h2 class="cada">Cadastro</h2>
+            <form>
+                <fieldset class="cad">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for=" senha">Senha</label>
+                    <input type="password" id="p3" name="pergunta3" 
+                placeholder="Digite sua senha">
+                    <label for="comentarios">Comentários</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="digite seus comentários"></textarea>
+                    <button>Envie o feedback</button>
+                      <legend>Qual frequência deseja receber notificação?</legend>
+                    <select name="frequencia" id="freq">
+                        <option value="Semanalmente">Semanalmente</option>
+                        <option value="quinzenal">Quinzenal</option>
+                        <option value="Mensal">Mensal</option>
+                        <option value="todas">Todas as receitas novas!!</option>f
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy Comida que cuida. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
+
+    
