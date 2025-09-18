@@ -57,7 +57,7 @@
 
     </section>
 
-    <!-- Coluna direita -->
+    <!-- Coluna direita / podem conter receitas mais pesquisadas etc-->
     <aside class="trending">
       <h3>Receitas em Alta 🔥</h3>
       <ul>
