@@ -27,21 +27,21 @@
         </section>
 
         <section>
-            <h2 class="nome">Qual seu nome?</h2>
+            <h2 style="color:#345c36" class="nomecliente">Qual seu nome?</h2>
             <form class="nome">
                 <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
             </form>
         </section>
         
         <section>
-            <h2 class="data">Qual sua data de nascimento?</h2>
+            <h2 style="color:#345c36" class="data">Qual sua data de nascimento?</h2>
             <form class="data">
                 <input type="date" id="p4" name="pergunta4">
             </form>
         </section>
 
-        <section>
-            <h2 class="feed">Por que precisa de ajuda do Comida que Cuida?</h2>
+        <section class="check">
+            <h2 style="color:#345c36" class="feed">Por que precisa de ajuda do Comida que Cuida?</h2>
             <form>
                 <input type="checkbox" id="p5a" name="pergunta5" value="Diabetes">
                 <label for="p5a">Diabetes</label>
@@ -112,16 +112,27 @@
             <h2 class="cada">Cadastro</h2>
             <form>
                 <fieldset class="cad">
+
+                    <div>
                     <label for="name">Nome</label>
                     <input type="text" id="name" name="name">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email">
+                    </div>
+
+                     <div class="senhauser">
                     <label for=" senha">Senha</label>
                     <input type="password" id="p3" name="pergunta3" 
                 placeholder="Digite sua senha">
+                 <span id="password" class="olhoSenha"></span>
+                </div>
+                <div>
                     <label for="comentarios">Comentários</label><br>
                     <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="digite seus comentários"></textarea>
-                    <button>Envie o feedback</button>
+                    </div>
+
+
+                    <button class="botao">Envie o feedback</button>
                       <legend>Qual frequência deseja receber notificação?</legend>
                     <select name="frequencia" id="freq">
                         <option value="Semanalmente">Semanalmente</option>
