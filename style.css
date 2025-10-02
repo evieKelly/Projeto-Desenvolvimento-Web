@@ -148,20 +148,20 @@ font-size: 37px;
 
      /*Subtitulo nome, senha, data, feed,tabela de topicos, cadastro... */
 
-  section h2.nome{
-     font-size: 25px;
-    color:#345c36;
+ 
   
-}
+
 input[type="text"],
-select .nome {
+select .nomecliente {
   border: 1px solid #ccc;
   border-radius: 4px; 
   box-sizing: border-box; 
   padding: 10px ;
  margin-inline: 12px;
-  width: 600px;
+  width: 300px;
   background: transparent;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
 }
 /*alterando a borda da caixa de texto*/
 input[type="text"]:focus {
@@ -170,38 +170,18 @@ input[type="text"]:focus {
 }
 
 
- section h2.senha{
-     font-size: 25px;
-    color:#345c36;
-  }
-  input[type="password"],
-select .senha {
-  border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  padding: 10px ;
- margin-inline: 12px;
-  width: 200px;
-  background: transparent;
-}
-/*alterando a borda da caixa de texto*/
-input[type="password"]:focus {
-  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
-  outline: none; /* Remove a borda de foco padrão do navegador */
-  }
-
 /* Estilo dos títulos */
 input[type="date"]
+section h2.data
 section h2.feed, 
 section h2.tipo, 
 section h2.tbTop, 
 section summary.nome,
 section h2.cada, 
 section h2.imagina, 
-section h2.alimentacao,
-section h2.date{
+section h2.alimentacao{
   font-size: 25px;
-  color: #345c36;
+  color: #345c36 !important;
   display: block;   /* estava escrito errado: "displSay" */
   margin-bottom: 10px;
    transition: all 0.17s ease;
@@ -221,7 +201,6 @@ select {
   transition: all 0.3s ease;
   margin: 20px ;
 }
-
 /* Quando passa o mouse */
 select:hover {
   border-color:#ccc;
@@ -235,44 +214,126 @@ select:focus {
   outline: none;
   box-shadow: 0 0 5px #203b1b;
 }
-input[type="date"]
+input[type="date"]{
+width: 150px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin: 20px ;
+
+}
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
 
 
-/* borda das informações de contato*/
+/* borda das informações de contato (e-mail*/
+
 fieldset.cad{
-    input[type="radio"],
-input[type="checkbox"],
-input [type="email"], textarea {
+input[type="email"]{
+ width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  
+}
+input[type="email"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  
+}
+}
+input[type="checkbox"] {
+ accent-color: #59925c;
+ margin: 20px;
+  }
+
+fieldset.cad{
+    input[type="password"]{
+  width: 150px;     /* tamanho */
+  height: 10px;
+ accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  padding: 12px;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+    }
+
+  }
+ input[type="password"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+ 
+  
+}
+
+fieldset.cad{
+    textarea {
+  width: 300px;     /* tamanho */
+  height: 70px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+  padding: 12px;
+}
+input textarea :focus {
+   border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+}
+fieldset.cad{
+    input[type="text"] {
+  width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   padding: 12px;
+}
+fieldset.cad{
+input[type="checkbox"] {
   width: 20px;     /* tamanho */
   height: 20px;
   accent-color: #4CAF50; 
   cursor: pointer;
   color:rgb(63, 62, 62);
 }
-<textarea id="comentarios" name="comentarios" rows="4" cols="50"
- placeholder="digite seus comentários"></textarea>
-select{
-    color:#1a4411; 
+}
+.botao{
+background-color: #59925c;
+color:white;
+background-color: #59925c;
+border: 2px solid ;
+border-radius:5px;
+  width: 150px;     /* tamanho */
+  height: 30px;
 }
 }
 
-/*
-select {
-  border: 1px solid rgb(63, 62, 62);
-  border-radius: 4px; 
-  box-sizing: border-box; 
-}
-
-
-/* nome, e-mail, frequência (fieldset)*/
-/*
-label{
-    color:rgb(63, 62, 62);
-    font-weight: bold;
-}
-    /* informações para contato */
-    /*
-legend{
     color:rgb(63, 62, 62);
 }
 /* Opções de frequencia */
