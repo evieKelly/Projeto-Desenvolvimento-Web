@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+
+header {
+    background: #097d4c;
+    color: white;
+    padding: 0px 0px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/*Css do botão de opções*/
+/*
+.navbar {
+    background: #097d4c;
+    padding: 10px 30px;
+}
+
+.btn-verde {
+    background: #076b41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-verde:hover {
+    background: #097d4c;
+}
+
+.dropdown-menu {
+    background: #076b41;
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background: #097d4c;
+}*/
+
+header h1 {
+    font-size: 2.5rem; /* tamanho grande para destaque */
+    margin: 0;
+    text-align: left; /* alinha à esquerda */
+     font-family: "Vina Sans", sans-serif;
+}
+header h1.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+  
+}
+/* coloca imagem e título lado a lado */
+.logo-titulo {
+    display: flex; /* layout horizontal */
+    justify-content: space-between; /* separa os blocos nas extremidades */
+    align-items: center; /* alinha vertical ao centro */
+    padding: 20px 30px;
+    background-color: #097d4c;
+    color: white;
+}
+
+/* Agrupa imagem e texto à esquerda */
+.logo-texto {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre imagem e texto */
+}
+
+/*imagem do logo */
+.logo-texto img {
+    max-width: 200px; /* limita largura da imagem */
+    height: auto; /* mantém proporção */
+}
+
+/*  título dentro da div da logo */
+.logo-texto h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.menus {
+    display: flex; /* coloca o texto lado a lado */
+    gap: 20px; /* espaço entre os texto */
+    
+}
+
+.menus p {
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+section.Objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #fff3c3;
+    margin: 0;
+    padding: 30px;
+    font-size: 0.9rem;
+    color: black;
+}
