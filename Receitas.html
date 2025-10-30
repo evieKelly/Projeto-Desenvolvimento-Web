@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Receitas Vida Saudável</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description"
+        content="Aqui você encontra inspiração para transformar sua alimentação em um gesto de cuidado diário.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Sans+Hegarty&family=Cabin:ital,wght@0,400..700;1,400..700&family=Vina+Sans&display=swap');
+    </style>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script src="MEUSITE.js"></script>
 </head>
-<body>
+
+<body class="tudo">
   <header>
-    <h1>Receitas Vida Saudável</h1>
-    <nav>
-      <a href="/Principal.html">Home</a>
-      <a href="./site_html_css/perfil.html">Perfil</a>
-    </nav>
+    <div class="logo-titulo">
+      <div class="logo-texto">
+        <img src="./assests/Comida que cuida.png" alt="Logo">
+        <h1>Receitas Vida Saudável</h1>
+      </div>
+      <div class="menus">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="./site_html_css/perfil.html">Perfil</a></p>
+      </div>
+    </div>
   </header>
 
-  <main class="feed">
+  <main class="feed" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <article class="post">
       <h2><a href="./site_html_css/receita-frango.html">Frango grelhado com legumes</a></h2>
       <p>Uma receita simples e barata para o almoço.</p>
@@ -32,8 +46,34 @@
     </article>
   </main>
 
-  <footer>
-    <p>© 2025 Receitas Vida Saudável</p>
-  </footer>
+<footer>
+  <div class="container">
+    <div class="row">
+      <h4 class="mb-3">Entre em contato</h4>
+
+      <!-- Telefone -->
+      <div class="col-md-4">
+        <p><strong>Telefone:</strong> +55 (21) 3098-2927</p>
+      </div>
+
+      <!-- E-mail -->
+      <div class="col-md-4">
+        <p><strong>E-mail:</strong> comidaquecuida@gmail.com</p>
+      </div>
+
+      <!-- Redes sociais -->
+      <div class="col-md-4">
+        <p><strong>Redes sociais:</strong> @ComidaQueCuida</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+      <small>&copy; 2025 Comida que Cuida. Todos os direitos reservados.</small>
+    </div>
+  </div>
+</footer>
+
+
 </body>
+
 </html>
