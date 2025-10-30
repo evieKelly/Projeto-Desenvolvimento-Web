@@ -1,0 +1,335 @@
+body{
+margin:0;
+padding:0;
+  background: rgb(248, 246, 246);
+ font-family: 'Montserrat', sans-serif;
+}
+/* cabeçalho comida.html*/
+h1 {
+    background: #4CAF50;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+        color: white ;
+        
+}
+/* Conheça receitas inovadoras e saudáveis */
+header p.an {
+    color:rgb(117, 180, 34) 
+    
+}
+/* todos os subtitilos */
+h2 {
+   margin: 20px;
+    color:#4CAF50;
+font-size: 1.6rem;
+font-family: 'Montserrat', sans-serif;
+padding: 2;
+}  
+
+/*Paragrafo main*/
+p{
+font-family: 'Montserrat', sans-serif;
+color:rgb(63, 62, 62);
+margin: 10px;
+ font-size: 16px;
+}
+/* section objetivo h2*/
+.objetivos {
+    background: #f9f9f9;      
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+/*liks main */
+a {
+    color: #5a964e; 
+    text-decoration: none;
+
+}
+
+/* Estiliza a borda do fieldset */
+fieldset {
+    border-color: white;
+    border-radius: 10px;
+    width: 650px;
+    background-color: transparent;
+    background-color: white;
+}
+
+/* informações para contato */
+footer{
+      margin: 0px;
+      background-color: #ccc;
+      box-sizing: none;
+      width: 100%;
+    padding: 10px;
+    
+}
+
+/* definindo o tamanho das imagens  */
+img {
+    margin: 20px;
+     width: 300px;  
+  height: 200px;
+
+}
+
+/* estilização das imagens para que fiquem alinhadas */
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+}
+
+
+/* estilização das imagens para que fiquem alinhadas */
+
+.card p {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+
+/* ----------------------index.html-----------------------------------------*/
+
+/*TODA REFEIÇÃO IMPORTA*/
+   header h1.texti{
+    color:#345c36;
+padding: 50px;
+background: #cbe6cb;
+ font-size: 25px;
+   font-weight: 300;
+    }
+/*DEFINA SEUS OBJETIVOS*/
+     header h2.objetivo{
+    color:#0e3f1d;
+border-color: rgb(148, 212, 146);
+text-align: center;
+font-size: 37px;
+    text-align: center;
+    color:#345c36;
+     }
+
+     /*Subtitulo nome, senha, data, feed,tabela de topicos, cadastro... */
+
+ 
+  
+
+input[type="text"],
+select .nomecliente {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  width: 300px;
+  background: transparent;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+}
+/*alterando a borda da caixa de texto*/
+input[type="text"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+}
+
+
+/* Estilo dos títulos */
+input[type="date"]
+section h2.data
+section h2.feed, 
+section h2.tipo, 
+section h2.tbTop, 
+section summary.nome,
+section h2.cada, 
+section h2.imagina, 
+section h2.alimentacao{
+  font-size: 25px;
+  color: #345c36 !important;
+  display: block;   /* estava escrito errado: "displSay" */
+  margin-bottom: 10px;
+   transition: all 0.17s ease;
+}
+
+/* Estilo geral das caixinhas (select) */
+select {
+  width: 250px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  margin: 20px ;
+}
+/* Quando passa o mouse */
+select:hover {
+  border-color:#ccc;
+  background-color: rgb(183, 214, 183);
+  
+}
+
+/* Quando está selecionado (focus) */
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+input[type="date"]{
+width: 150px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin: 20px ;
+
+}
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+
+
+/* borda das informações de contato (e-mail*/
+
+fieldset.cad{
+input[type="email"]{
+ width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  
+}
+input[type="email"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  
+}
+}
+input[type="checkbox"] {
+ accent-color: #59925c;
+ margin: 20px;
+  }
+
+fieldset.cad{
+    input[type="password"]{
+  width: 150px;     /* tamanho */
+  height: 10px;
+ accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  padding: 12px;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+    }
+
+  }
+ input[type="password"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+ 
+  
+}
+
+fieldset.cad{
+    textarea {
+  width: 300px;     /* tamanho */
+  height: 70px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+  padding: 12px;
+}
+input textarea :focus {
+   border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+}
+fieldset.cad{
+    input[type="text"] {
+  width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   padding: 12px;
+}
+fieldset.cad{
+input[type="checkbox"] {
+  width: 20px;     /* tamanho */
+  height: 20px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+.botao{
+background-color: #59925c;
+color:white;
+background-color: #59925c;
+border: 2px solid ;
+border-radius:5px;
+  width: 150px;     /* tamanho */
+  height: 30px;
+}
+}
