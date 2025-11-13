@@ -124,3 +124,152 @@ footer {
     font-size: 0.9rem;
     color: black;
 }
+
+
+
+
+
+
+
+/*Estilizando cadastro*/
+
+/* borda das informações de contato (e-mail*/
+
+
+fieldset.cad{
+input[type="email"]{
+ width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+ 
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+ 
+}
+input[type="email"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+ 
+}
+}
+input[type="checkbox"] {
+ accent-color: #59925c;
+ margin: 20px;
+  }
+
+
+/* estiliza o input de senha dentro do fieldset com classe .cad */
+fieldset.cad input[type="password"] {
+  width: 150px;
+  height: auto;                /* ajustar automaticamente pela padding */
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(63, 62, 62);
+  display: inline-block; 
+    
+}
+
+/* foco — seletor correto */
+fieldset.cad input[type="password"]:focus {
+  border: 2px solid #5a964e;
+  outline: none;
+  box-shadow: 0 0 6px rgba(90,150,78,0.25);
+} /* Altera a borda para 2px sólida e na cor verde */
+ 
+ 
+
+
+
+ textarea {
+  width: 500px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: rgb(63, 62, 62);
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 10px;   /* afasta do título "Comentários" */
+  margin-left: 20px;  /* afasta da margem esquerda */
+  resize: none;       
+}
+
+textarea:focus {
+  border-color:#5a964e;
+  outline: none;
+
+}
+fieldset.cad{
+    input[type="text"] {
+  width: 200px;    
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   padding: 12px;
+}
+fieldset.cad comentarios{
+input[type="checkbox"] {
+  width: 20px;     
+  height: 20px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+.botao{
+background-color: #59925c;
+color:white;
+background-color: #59925c;
+border: 2px solid ;
+border-radius:5px;
+  width: 156px;     
+  height: 40px;
+    margin: 10px auto;
+    display: flex; 
+    
+    /*  Centraliza os itens horizontalmente */
+    justify-content: center; 
+    
+    /*   Adiciona um pequeno espaço entre os itens */
+    gap: 15px;
+    font-size: 13px;
+}
+}
+#freq {
+  display: block;
+  margin: 10px auto;
+  width: 170px;
+  height: 20px;
+  border-radius: 5px;
+   width: 230px;     
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.cada {
+  color: #324f2a ;
+}
+fieldset.cad{
+  comentarios{
+  width: 20px;    
+  height: 20px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+
+  body{
+    padding-bottom: 60px;
+  }
