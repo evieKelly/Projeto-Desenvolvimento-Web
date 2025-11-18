@@ -17,44 +17,6 @@ header {
   font-style: normal;
 }
 
-
-
-/*Css do botão de opções*/
-/*
-.navbar {
-    background: #097d4c;
-    padding: 10px 30px;
-}
-
-.btn-verde {
-    background: #076b41;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
-    font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.btn-verde:hover {
-    background: #097d4c;
-}
-
-.dropdown-menu {
-    background: #076b41;
-    border: none;
-}
-
-.dropdown-item {
-    color: white;
-    padding: 10px 20px;
-}
-
-.dropdown-item:hover {
-    background: #097d4c;
-}*/
-
 header h1 {
     font-size: 2.5rem; /* tamanho grande para destaque */
     margin: 0;
