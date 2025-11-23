@@ -105,8 +105,13 @@ header h1.vina-sans-regular {
     margin: 0;
     font-weight: bold;
     cursor: pointer; 
+    
 }
-
+.menus a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+}
 section.Objetivo {
     display: flex;
     flex-direction: column;
