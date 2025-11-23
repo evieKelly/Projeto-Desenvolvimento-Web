@@ -1,0 +1,497 @@
+/*TODA REFEIÇÃO IMPORTA*/
+    h1.texti{
+    color:#345c36;
+background:#cbe6cb;
+ font-size: 25px;
+   font-weight: 300;
+   padding: 100px 0;
+  display: flex;
+  justify-content: center; /* centraliza na horizontal */
+  text-align: center;
+   align-items: flex-start;
+    display: flex; /* Define o Flexbox */
+    flex-direction: row; /* Lado a lado por padrão (telas grandes) */
+width: 100%;
+
+}
+
+/* E ajuste o restante do header para também ter 100% de largura */
+header {
+    width: 100%;
+
+   }
+
+
+/*DEFINA SEUS OBJETIVOS*/
+     header h2.objetivo{
+    color:#0e3f1d;
+border-color: rgb(148, 212, 146);
+text-align: center;
+font-size: 37px;
+    text-align: center;
+    color:#345c36;
+     }
+
+     /*Subtitulo nome, senha, data, feed,tabela de topicos, cadastro... */
+
+ 
+  
+
+input[type="text"],
+select .nomecliente {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  width: 300px;
+  background: transparent;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+}
+/*alterando a borda da caixa de texto*/
+input[type="text"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+}
+
+
+/* Estilo dos títulos */
+input[type="date"]
+section h2.data
+section h2.feed, 
+section h2.tipo, 
+section h2.tbTop, 
+section h2.cada, 
+section h2.imagina, 
+section h2.alimentacao{
+  font-size: 25px;
+  color: #345c36 !important;
+  display: block;   /* estava escrito errado: "displSay" */
+  margin-bottom: 10px;
+   transition: all 0.17s ease;
+}
+
+/* Estilo geral das caixinhas (select) */
+select {
+  width: 250px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  margin: 20px ;
+}
+/* Quando passa o mouse */
+select:hover {
+  border-color:#ccc;
+  background-color: rgb(183, 214, 183);
+  
+}
+
+/* Quando está selecionado (focus) */
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+input[type="date"]{
+width: 150px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin: 20px ;
+
+}
+select:focus {
+  border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+
+
+/* borda das informações de contato (e-mail*/
+
+fieldset.cad{
+input[type="email"]{
+ width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  
+}
+input[type="email"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  
+}
+}
+input[type="checkbox"] {
+ accent-color: #59925c;
+ margin: 20px;
+  }
+
+fieldset.cad{
+    input[type="password"]{
+  width: 150px;     /* tamanho */
+  height: 10px;
+ accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+  padding: 12px;
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+    }
+
+  }
+ input[type="password"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+ 
+  
+}
+
+fieldset.cad{
+    textarea {
+  width: 300px;     /* tamanho */
+  height: 80px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+  padding: 12px;
+}
+input textarea :focus {
+   border-color:#5a964e; /* destaque ao focar */
+  outline: none;
+  box-shadow: 0 0 5px #203b1b;
+}
+}
+fieldset.cad{
+    input[type="text"] {
+  width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   padding: 12px;
+}
+fieldset.cad{
+input[type="checkbox"] {
+  width: 20px;     /* tamanho */
+  height: 20px;
+  accent-color: #4CAF50; 
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+.botao{
+background-color: #59925c;
+color:white;
+background-color: #59925c;
+border: 2px solid ;
+border-radius:5px;
+  width: 150px;     /* tamanho */
+  height: 30px;
+}
+}
+
+
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
+
+background-color: #f7f8f3;
+display: flex;
+flex-direction: column; /* <--- ADICIONE ESTA LINHA! */
+justify-content: center;
+align-items: center;
+
+}
+
+.cartoes {
+  background-color: #fffefb;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 40px 60px;
+  max-width: 950px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #2f3d1e;
+}
+
+header p {
+  color: #5a7c4d;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.cartoes {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cartao {
+  flex: 1;
+  min-width: 250px;
+  background-color: #fff;
+  border: 2px solid #d4e1cd;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.cartao:hover {
+  box-shadow: 0 0 10px rgba(80,120,60,0.2);
+}
+
+.cartao .icon {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cartao h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #324f2a;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #3c3c3c;
+}
+
+input[type="checkbox"] {
+  accent-color: #5cb85c;
+  margin-right: 10px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #324f2a ;
+   align-items: center; /* (opcional) centraliza verticalmente */
+  width: 100%; /* garante que o flex ocupe toda a linha */
+  margin-top: 20px
+}
+
+button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+ text-align: center;
+ color:#324f2a;
+ grid: 20px;
+}
+
+button.continue {
+  background-color: #7bc45e;
+  color: #324f2a;
+
+}
+  
+
+button.continue:hover {
+  background-color: #68ac50;
+    transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cartao:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+/*Estilizando cadastro*/
+
+/* borda das informações de contato (e-mail*/
+
+
+fieldset.cad{
+input[type="email"]{
+ width: 200px;     /* tamanho */
+  height: 30px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px ;
+ margin-inline: 12px;
+  background: transparent;
+ 
+    display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+ 
+}
+input[type="email"]:focus {
+  border: 2px solid #5a964e; /* Altera a borda para 2px sólida e na cor verde */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+ 
+}
+}
+input[type="checkbox"] {
+ accent-color: #59925c;
+ margin: 20px;
+  }
+
+
+/* estiliza o input de senha dentro do fieldset com classe .cad */
+fieldset.cad input[type="password"] {
+  width: 150px;
+  height: auto;                /* ajustar automaticamente pela padding */
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(63, 62, 62);
+  display: inline-block; 
+    
+}
+
+/* foco — seletor correto */
+fieldset.cad input[type="password"]:focus {
+  border: 2px solid #5a964e;
+  outline: none;
+  box-shadow: 0 0 6px rgba(90,150,78,0.25);
+} /* Altera a borda para 2px sólida e na cor verde */
+ 
+ 
+
+
+
+ textarea {
+  width: 500px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: rgb(63, 62, 62);
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 10px;   /* afasta do título "Comentários" */
+  margin-left: 20px;  /* afasta da margem esquerda */
+  resize: none;       
+}
+
+textarea:focus {
+  border-color:#5a964e;
+  outline: none;
+
+}
+fieldset.cad{
+    input[type="text"] {
+  width: 200px;    
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+   padding: 12px;
+}
+fieldset.cad comentarios{
+input[type="checkbox"] {
+  width: 20px;     
+  height: 20px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+.botao{
+background-color: #59925c;
+color:white;
+background-color: #59925c;
+border: 2px solid ;
+border-radius:5px;
+  width: 156px;     
+  height: 40px;
+    margin: 10px auto;
+    display: flex; 
+    
+    /*  Centraliza os itens horizontalmente */
+    justify-content: center; 
+    
+    /*   Adiciona um pequeno espaço entre os itens */
+    gap: 15px;
+    font-size: 13px;
+}
+}
+#freq {
+
+  width: 170px;
+  height: 20px;
+  border-radius: 5px;
+   width: 230px;     
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.cada {
+  color: #324f2a ;
+}
+fieldset.cad{
+  comentarios{
+  width: 20px;    
+  height: 20px;
+  accent-color: #4CAF50;
+  cursor: pointer;
+  color:rgb(63, 62, 62);
+}
+}
+
+  body{
+    padding-bottom: 60px;
+  }
