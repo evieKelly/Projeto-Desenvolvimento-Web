@@ -1,3 +1,11 @@
+/* Reset e fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,61 +19,15 @@ header {
     padding: 0px 0px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
-.vina-sans-regular {
-  font-family: "Vina Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
-
-
-/*Css do botão de opções*/
-/*
-.navbar {
-    background: #097d4c;
-    padding: 10px 30px;
-}
-
-.btn-verde {
-    background: #076b41;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
-    font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.btn-verde:hover {
-    background: #097d4c;
-}
-
-.dropdown-menu {
-    background: #076b41;
-    border: none;
-}
-
-.dropdown-item {
-    color: white;
-    padding: 10px 20px;
-}
-
-.dropdown-item:hover {
-    background: #097d4c;
-}*/
 
 header h1 {
     font-size: 2.5rem; /* tamanho grande para destaque */
     margin: 0;
     text-align: left; /* alinha à esquerda */
-     font-family: "Vina Sans", sans-serif;
 }
-header h1.vina-sans-regular {
-  font-family: "Vina Sans", sans-serif;
-  
-}
-/* coloca imagem e título lado a lado */
+
+
 .logo-titulo {
     display: flex; /* layout horizontal */
     justify-content: space-between; /* separa os blocos nas extremidades */
@@ -75,7 +37,6 @@ header h1.vina-sans-regular {
     color: white;
 }
 
-/* Agrupa imagem e texto à esquerda */
 .logo-texto {
     display: flex;
     align-items: center;
@@ -95,37 +56,113 @@ header h1.vina-sans-regular {
     font-family: 'Cabin', sans-serif;
 }
 
-.menus {
-    display: flex; /* coloca o texto lado a lado */
-    gap: 20px; /* espaço entre os texto */
-    
+header h2.objetivo {
+  color: #345c36;
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: 600;
 }
 
-.menus p {
-    margin: 0;
-    font-weight: bold;
-    cursor: pointer; 
-    
-}
-.menus a{
-    text-decoration: none;
-    color: inherit;
-    font-size: 1em;
-}
-section.Objetivo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 30px;
-    box-sizing: border-box;
+/* Inputs e selects */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fdfdfd;
+  font-size: 1rem;
+  margin: 12px 0;
+  transition: all 0.3s ease;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  border: 2px solid #5a964e;
+  outline: none;
+  box-shadow: 0 0 8px rgba(90, 150, 78, 0.4);
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 120px;
+  resize: none;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #5a964e;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+input[type="checkbox"]:hover {
+  transform: scale(1.1);
+}
+
+/* Botões */
+button,
+.botao {
+  background-color: #59925c;
+  color: white;
+  border: 2px solid #59925c;
+  border-radius: 8px;
+  width: 170px;
+  height: 45px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+.botao:hover {
+  background-color: #68ac50;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Cartões */
+.cartoes {
+  background-color: #fffefb;
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  padding: 40px 60px;
+  max-width: 950px;
+  margin: 40px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cartoes:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+/* Footer */
 footer {
-    background-color: #fff3c3;
-    margin: 0;
-    padding: 30px;
-    font-size: 0.9rem;
-    color: black;
+  width: 100%;
+  background-color: #fff3c3;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid #5a964e;
+  font-size: 14px;
+  color: black;
 }
